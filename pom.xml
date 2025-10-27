@@ -36,7 +36,7 @@
 
 	</dependencies>
 
-	<!-- Profile Setupaa -->
+	<!-- Profile Setup -->
 	<profiles>
 		<profile>
 			<id>AppiumTesting</id>
