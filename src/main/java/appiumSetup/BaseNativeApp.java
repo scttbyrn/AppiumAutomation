@@ -33,7 +33,7 @@ public class BaseNativeApp {
 		/*Setup uiAutomator2*/
 		options = new UiAutomator2Options();
 		options.setDeviceName("TestAppiumGPTT");
-		options.setApp("C:\\Users\\scottbyron.escueta\\AppData\\Local\\Android\\Sdk\\platform-tools\\app-dev-release.apk"); //nativeApp
+		options.setApp("C:\\Users\\scottbyron.escueta\\eclipse-workspace\\AutomationAppium\\src\\main\\java\\APK\\app-dev-release-20251023_1420.apk"); //nativeApp
 		driver = new AndroidDriver(new URI("http://127.0.0.1:4723").toURL(), options);
 		
 		driver.quit();
