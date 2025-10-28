@@ -23,12 +23,12 @@ public class BaseNativeApp {
 	public void NativeApp() throws MalformedURLException, URISyntaxException {
 
 		/*Setup automatically connect on appium server*/
-		service = new AppiumServiceBuilder()
-				.withAppiumJS(new File("C://Users//scottbyron.escueta//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
-				.withIPAddress("127.0.0.1")
-				.usingPort(4723)
-				.build();
-		service.start();
+//		service = new AppiumServiceBuilder()
+//				.withAppiumJS(new File("C://Users//scottbyron.escueta//AppData//Roaming//npm//node_modules//appium//build//lib//main.js"))
+//				.withIPAddress("127.0.0.1")
+//				.usingPort(4723)
+//				.build();
+//		service.start();
 
 		/*Setup uiAutomator2*/
 		options = new UiAutomator2Options();
