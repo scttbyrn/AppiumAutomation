@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumSetup.BaseNativeApp">
+      <class name="appiumSetup.AppiumDesiredCaps">
         <methods>
-          <include name="NativeApp"/>
+          <include name="DesiredCaps"/>
         </methods>
-      </class> <!-- appiumSetup.BaseNativeApp -->
+      </class> <!-- appiumSetup.AppiumDesiredCaps -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
